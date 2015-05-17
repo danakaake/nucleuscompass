@@ -1,4 +1,4 @@
-<?php $page="freud";?>
+<?php $page="freud" ;?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,7 +14,9 @@
     </div>
     
 
+
 <?php
+///
 
 $link = mysql_connect('localhost', 'root', 'freud');
 if (!$link) {
